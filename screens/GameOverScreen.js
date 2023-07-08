@@ -7,7 +7,7 @@ function GameOverScreen({ onReset }) {
   return (
     <View style={styles.screen}>
       <Title color={Colors.secondary500}>Game Over</Title>
-      <PrimaryButton onPress={onReset} />
+      <PrimaryButton onPress={onReset}>Reset</PrimaryButton>
     </View>
   );
 }
